@@ -15,7 +15,8 @@ public class Unit2 {
      */
     public static String concatenateStrings(String str1, String str2) {
         // TODO: Implement this method using String concatenation
-        return null;
+        String newstr = str1 + " " + str2;
+        return newstr;
     }
 
     /**
@@ -25,7 +26,7 @@ public class Unit2 {
      */
     public static double calculateSquareRoot(double number) {
         // TODO: Implement this method using Math.sqrt
-        return 0.0;
+        return Math.sqrt(number);
     }
 
     /**
@@ -35,7 +36,8 @@ public class Unit2 {
      */
     public static String toUpperCase(String str) {
         // TODO: Implement this method using String.toUpperCase
-        return null;
+        String newstr = str.toUpperCase();
+        return newstr;
     }
 
     /**
@@ -46,7 +48,8 @@ public class Unit2 {
      */
     public static int findMax(int num1, int num2) {
         // TODO: Implement this method using Math.max
-        return 0;
+        int max = Math.max(num1, num2);
+        return max;
     }
 
     /**
@@ -56,7 +59,8 @@ public class Unit2 {
      */
     public static int getStringLength(String str) {
         // TODO: Implement this method using String.length
-        return 0;
+        int length = str.length();
+        return length;
     }
 
     /**
@@ -66,7 +70,8 @@ public class Unit2 {
      */
     public static int roundValue(double value) {
         // TODO: Implement this method using Math.round
-        return 0;
+        int newnum = (int)value;
+        return newnum;
     }
 
     /**
@@ -78,7 +83,8 @@ public class Unit2 {
      */
     public static String getSubstring(String str, int beginIndex, int endIndex) {
         // TODO: Implement this method using String.substring
-        return null;
+        String newstr = str.substring(beginIndex, endIndex);
+        return newstr;
     }
 
     /**
@@ -88,7 +94,8 @@ public class Unit2 {
      */
     public static int getAbsoluteValue(int number) {
         // TODO: Implement this method using Math.abs
-        return 0;
+        int newnum = Math.abs(number);
+        return newnum;
     }
 
     /**
@@ -100,7 +107,7 @@ public class Unit2 {
      */
     public static String replaceCharacter(String str, char oldChar, char newChar) {
         // TODO: Implement this method using String.replace
-        return null;
+        return str.replace(oldChar, newChar);
     }
 
     /**
@@ -111,6 +118,7 @@ public class Unit2 {
      */
     public static double powerOf(double base, double exponent) {
         // TODO: Implement this method using Math.pow
-        return 0.0;
+        double num = Math.pow(base, exponent);
+        return num;
     }
 }
