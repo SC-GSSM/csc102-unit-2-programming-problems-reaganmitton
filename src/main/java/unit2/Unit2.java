@@ -70,7 +70,7 @@ public class Unit2 {
      */
     public static int roundValue(double value) {
         // TODO: Implement this method using Math.round
-        int newnum = (int)value;
+        int newnum = Math.round(value);
         return newnum;
     }
 
